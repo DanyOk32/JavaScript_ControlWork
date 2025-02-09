@@ -4,6 +4,6 @@
 
 let x = 1;
 while (x <= 20) {
-    document.write(`<div><h1>Okten great work</h1> ${x}</div>`)
+    document.write('<h1>Okten great work</h1>')
     x++;
 }
