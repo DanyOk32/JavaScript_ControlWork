@@ -1,4 +1,5 @@
 // - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.
+'use strict' ;
 let book1 = {
     title : 'How to win million dollars',
     pageCount : 10,

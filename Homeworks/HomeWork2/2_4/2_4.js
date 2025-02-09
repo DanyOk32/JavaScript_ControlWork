@@ -1,5 +1,6 @@
 // - Створити масив з 10 об'єктами які описують сутніть "користувач".
 //Поля: name, username,password. Вивести в консоль пароль кожного користувача
+'use strict';
 let user1, user2, user3, user4, user5, user6, user7, user8, user9, user10
 
 user1 = {
