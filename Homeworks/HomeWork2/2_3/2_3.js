@@ -48,7 +48,6 @@ let book3 = {
     ]
 }
 
-
 console.log(book1)
 console.log(book2)
 console.log(book3)
