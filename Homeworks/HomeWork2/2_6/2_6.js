@@ -4,36 +4,11 @@
 
 'use strict';
 // ----------------------------------довільне
-let x = 192491249;
+let x = +prompt('Введіть значення: 1 ; 0 або -3');
     if(x !== 0) {
-        console.log('true')
+        document.write('true')
     }
     else {
-        console.log('false')
+        document.write('false')
     }
-// ---------------------------------- a=1
-    let a =1;
-    if(a!==0) {
-        console.log('true')
-    }
-    else{
-        console.log('false')
-    }
-// ---------------------------------- a=0
-    a = 0;
-    if(a!==0) {
-        console.log('true')
-    }
-    else{
-        console.log('false')
-    }
-// ---------------------------------- a=-3
-    a = -3;
-    if(a!==0){
-        console.log('true')
-    }
-    else {
-        console.log('false')
-    }
-
 
