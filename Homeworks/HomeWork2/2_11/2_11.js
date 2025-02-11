@@ -17,9 +17,7 @@
 // NaN
 
 let x = prompt("Введіть будь-що")
-if (x==='false' || x==='0' || x==='-0' || x=== "" || x=== '' || x===`` ||
-    x=== null || x=== 'null' || x=== undefined || x=== 'undefined'|| x === NaN ||
-    x==="NaN"|| x ===0 || x=== -0){
+if (x===`` || x=== null || x=== undefined || x === NaN || x ===0){
     x='default'
     console.log(x)
 } else{
