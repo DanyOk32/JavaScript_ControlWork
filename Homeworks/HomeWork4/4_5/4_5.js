@@ -3,7 +3,7 @@
 'use strict';
 // debugger
 
-function writer(text){
+function writerP(text){
     document.write(`<p>${text}</p>`)
 }
-writer('Hello Okten')
+writerP('Hello Okten')
