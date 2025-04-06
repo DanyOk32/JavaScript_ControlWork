@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Test</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style0-768.css">
 </head>
 <body>
 <div id="main">
@@ -13,7 +14,6 @@
         <label for="textinput">Name/Value Pair</label>
         <input id="textinput" type="text" placeholder="Name=Value" >
         </div>
-
         <button id="add" onclick="checkAdd()">Add</button>
     </div>
     <div id="bottom">
@@ -22,10 +22,10 @@
             <div id="workList">
             </div>
         </div>
-        <div id="bottons">
-            <button id="sbname" onclick="sortbyName()">Sort by Name</button>
-            <button id="sbvalue" onclick="sortbyValue()">Sort by Value</button>
-            <button id="delete" onclick="lastDelete()">Delete</button>
+        <div id="buttons">
+            <button class="btn" id="sbname" onclick="sortbyName()">Sort by Name</button>
+            <button class="btn" id="sbvalue" onclick="sortbyValue()">Sort by Value</button>
+            <button class="btn" id="delete" onclick="lastDelete()">Delete</button>
         </div>
     </div>
 </div>

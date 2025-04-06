@@ -8,7 +8,7 @@ body{
 }
 #main{
     width: 80vw;
-    margin: 2% auto 0 auto;
+    margin: 3vh auto 3vh auto;
     background-color: white;
     border: 1px grey solid;
     border-radius: 5px;
@@ -37,10 +37,11 @@ display: flex;
     gap: 10px;
 }
 #add{
-    height: 5vh;
     margin-top: 20px;
     margin-left: 5%;
-    width: 40px ;
+}
+#add:active{
+    background-color: greenyellow;
 }
 #bottom{
     display: flex;
@@ -64,7 +65,7 @@ display: flex;
     height: 60vh;
     overflow: auto;
 }
-#bottons{
+#buttons{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -81,4 +82,7 @@ display: flex;
 }
 #workList p:hover{
     color: violet;
+}
+.btn:active{
+    background-color: greenyellow;
 }
