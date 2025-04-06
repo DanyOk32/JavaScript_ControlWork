@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.headerhw{
+    font-size: 30px;
+    color: deepskyblue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: blue solid 2px;
+    width: 80vw;
+    margin: 0 auto 0 auto;
+
+}
+.maindiv{
+    width: 100vw;
+    background-color: #ccc1c1;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.both{
+    display: inline-block;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.dur{
+    margin: 10px 10px 10px 10px;
+    border: solid blue 1px;
+    width: 30vw;
+
+
+}
+.hour{
+    width: 65vw;
+    border: solid blue 1px;
+
+}
+.modulec{
+    width: 90vw;
+    display: flex;
+    margin: 2px auto 0 auto;
+    border: solid blue 1px;
+    justify-content: center;
+
+}

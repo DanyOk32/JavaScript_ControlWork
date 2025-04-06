@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: deepskyblue;
+}
+#main{
+    width: 80vw;
+    margin: 2% auto 0 auto;
+    background-color: white;
+    border: 1px grey solid;
+    border-radius: 5px;
+    padding-left: 3%;
+}
+h2  {
+    margin: 35px 0 20px;
+}
+#textinput{
+    width: 50vw;
+    height: 5vh;
+
+}
+.formGroup{
+    display: flex;
+    flex-direction: column;
+}
+.formGroup label{
+    font-size: 15px;
+    color: #8d8888;
+    height: 20px;
+
+}
+#upper{
+display: flex;
+    gap: 10px;
+}
+#add{
+    height: 5vh;
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 40px ;
+}
+#bottom{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+#pairList{
+    display: flex;
+    flex-direction: column;
+}
+#labelP{
+    font-size: 15px;
+    color: #8d8888;
+    height: 20px;
+}
+#workList{
+    width: 50vw;
+    border: 1px grey solid;
+    border-radius: 5px;
+    height: 60vh;
+    overflow: auto;
+}
+#bottons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+#delete{
+    margin-top: 10px;
+    width: 50px;
+}
+#workList p{
+    cursor: pointer;
+    user-select: none;
+}
+#workList p:hover{
+    color: violet;
+}
